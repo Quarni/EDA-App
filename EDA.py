@@ -35,7 +35,7 @@ if upload_file is not None:
     st.write(df)
     st.write('---')
 else:
-    st.info('Awaiting for CSV file, upload kar b do ab ye kaam nahi lena?')
+    st.info('Awaiting for CSV file, Please upload ')
     if st.button('Press to use example data'):
         #example dataset
         @st.cache
